@@ -15,6 +15,7 @@
     padding: 1rem;
 }
 .Img_header img{
+    margin-top: 1.5rem;
     width: 100%;
     max-width: 400px;
     object-fit: fill;
@@ -43,6 +44,7 @@
     }
     .Img_header img{
         min-width: 600px;
+        margin-top: 0;
     }
     .Welcome_text{
         justify-content: start;
