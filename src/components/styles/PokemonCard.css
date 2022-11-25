@@ -1,0 +1,198 @@
+.Card_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 270px));
+    justify-content: center;
+    gap: 2rem;
+}
+.Card{
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.Card_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+.grass{
+    background: linear-gradient(180deg, #64bc5c 0%, #92cf8c 100%);
+}
+.border_grass{
+    border: 3px solid #64bc5c;
+}
+.bug{
+    background: linear-gradient(180deg, #93c42c 0%, #b2d66d 100%);
+}
+.border_bug{
+    border: 3px solid #93c42c;
+}
+.fire{
+    background: linear-gradient(180deg, #fa672d 0%, #fc9d32 100%);
+}
+.border_fire{
+    border: 3px solid #fa672d;
+}
+.fighting{
+    background: linear-gradient(180deg, #cc446c 0%, #dc7790 100%);
+}
+.border_fighting{
+    border: 3px solid #cc446c;
+}
+.normal{
+    background: linear-gradient(180deg, #fc4343 0%, #f88181 100%);
+}
+.border_normal{
+    border: 3px solid #fc4343;
+}
+.flying{
+    background: linear-gradient(180deg, #94acdc 0%, #beccec 100%);
+}
+.border_flying{
+    border: 3px solid #94acdc;
+}
+.poison{
+    background: linear-gradient(180deg, #ac6ccc 0%, #caa2dc 100%);
+}
+.border_poison{
+    border: 3px solid #ac6ccc;
+}
+.rock{
+    background: linear-gradient(180deg, #c4b48c 0%, #e4dcc4 100%);
+}
+.border_rock{
+    border: 3px solid #c4b48c;
+}
+.ghost{
+    background: linear-gradient(180deg, #546cac 0%, #90a0c8 100%);
+}
+.border_ghost{
+    border: 3px solid #546cac;
+}
+.steel{
+    background: linear-gradient(180deg, #5c8ca4 0%, #9cbcc4 100%);
+}
+.border_steel{
+    border: 3px solid #5c8ca4;
+}
+.water{
+    background: linear-gradient(180deg, #4c93d4 0%, #84b2e4 100%);
+}
+.border_water{
+    border: 3px solid #4c93d4;
+}
+.electric{
+    background: linear-gradient(180deg, #f4d43c 0%, #f4dc5c 100%);
+}
+.border_electric{
+    border: 3px solid #f4d43c;
+}
+.psychic{
+    background: linear-gradient(180deg, #fc7474 0%, #fca4a4 100%);
+}
+.border_psychic{
+    border: 3px solid #fc7474;
+}
+.ice{
+    background: linear-gradient(180deg, #74ccc3 0%, #94dcd4 100%);
+}
+.border_ice{
+    border: 3px solid #74ccc3;
+}
+.dragon{
+    background: linear-gradient(180deg, #0c6cc4 0%, #5ea1d9 100%);
+}
+.border_dragon{
+    border: 3px solid #0c6cc4;
+}
+.dark{
+    background: linear-gradient(180deg, #5c5464 0%, #9c94a4 100%);
+}
+.border_dark{
+    border: 3px solid #5c5464;
+}
+.fairy{
+    background: linear-gradient(180deg, #ec8ce4 0%, #f4b9ef 100%);
+}
+.border_fairy{
+    border: 3px solid #ec8ce4;
+}
+.ground{
+    background: linear-gradient(180deg, #dc7444 0%, #e4a888 100%);
+}
+.border_ground{
+    border: 3px solid #dc7444;
+}
+
+
+.Card_img img{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+.Card_nme{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+}
+.Card_nme h2{
+    color: rgb(54, 54, 54);
+    margin-bottom: .5rem;
+}
+.Card_nme ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Card_nme li{
+    color: rgb(83, 83, 83);
+}
+.Card_nme p{
+    font-size: .8rem;
+    color: rgb(139, 139, 139);
+}
+.Card_stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+}
+.Card_stats_container{
+    display: flex;
+    align-items: center;
+}
+.Card_stats_container img{
+    width: 30px;
+    height: 30px;
+}
+.Card_stats_container span{
+    color: rgb(139, 139, 139);
+}
+
+@media(min-width:720px){
+    .Card_container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    }
+    .Card{
+        width: 300px;
+        height: 360px;
+    }
+    .Card_nme{
+        font-size: 1.2rem;
+    }
+    .Card_stats_container img{
+        width: 40px;
+        height: 40px;
+    }
+}

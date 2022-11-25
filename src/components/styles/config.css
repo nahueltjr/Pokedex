@@ -1,0 +1,72 @@
+.Config_container{
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.Config{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    
+}
+.Config h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Link{
+    width: fit-content;
+    color: rgb(253, 56, 56);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    text-shadow: rgba(0, 0, 0, 0.685) 0px 0px 2px;
+}
+
+.Items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+.Items p{
+    font-size: 1.5rem;
+    color: rgb(63, 63, 63);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Select{
+    width: 100%;
+    max-width: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* .Theme{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem;
+}
+.Theme p{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.Theme button{
+    font-size: 2rem;
+    width: 100%;
+    max-width: 100px;
+    padding: 1rem 1.5rem;
+    background-color: rgb(5, 9, 27);
+    color: rgb(255, 238, 140);
+    border-radius: 10px;
+} */
+
+
+
+

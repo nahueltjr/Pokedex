@@ -1,0 +1,56 @@
+.Pokemons_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* overflow-y: scroll; */
+    gap: 1rem;
+}
+.Img_header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.Img_header img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: fill;
+}
+.Welcome_text{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.Welcome_text span{
+    color: rgb(253, 56, 56);
+}
+.Input_section{
+    padding: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+
+@media(min-width:720px){
+    .Img_header{
+        justify-content: start;
+    }
+    .Img_header img{
+        min-width: 600px;
+    }
+    .Welcome_text{
+        justify-content: start;
+    }
+
+    .Input_section{
+        grid-template-rows: auto;
+        grid-template-columns: 49.5% auto;
+        gap: 1rem;
+    }
+}

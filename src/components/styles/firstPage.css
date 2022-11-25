@@ -1,0 +1,112 @@
+body{
+    background-color: #eee;
+}
+
+.First_page{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% auto;
+    align-items: center;
+    text-align: center;
+}
+.First_page_input{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+.First_page_input_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First_page_input img{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+.First_page_input input{
+    width: 200px;
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    text-indent: 1rem;
+    outline: none;
+    margin-right: 1rem;
+}
+.First_page_input h2,.First_page_input h2{
+    font-weight: 700;
+}
+.First_page_input button{
+    font-size: 1.2rem;
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+ }
+ .First_page_input button:hover{
+    scale: 1.2;
+ }
+.First_page_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.First_page_img img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: contain;
+    
+}
+.Config_btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    font-size: 1.5rem;
+    color: rgb(253, 56, 56);
+    text-shadow: rgba(0, 0, 0, 0.685) 0px 0px 2px;
+}
+
+@media(min-width:720px){
+    .First_page{
+        grid-template-rows: none;
+        grid-template-columns: 50% auto;
+    }
+    .First_page_input{
+        /* padding-top: 5rem;
+        justify-content: start; */
+        font-size: 1.8rem;
+    }
+    .First_page_input input{
+        width: 300px; 
+    }
+    .First_page_input img{
+        max-width: 500px;
+    }
+    .First_page_img img{
+        max-width: 600px;
+    }
+    .Config_btn{
+        font-size: 2.5rem; 
+    }
+    
+    
+}
+
+@media(min-width:990px){
+    
+    
+}
