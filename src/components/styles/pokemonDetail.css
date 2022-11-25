@@ -260,6 +260,8 @@
     border-radius: 10px;
     background-color: #eee;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 400px;
+    overflow-y: scroll;
 }
 .Pokemon_moves h3{
     font-size: 1.2rem;
@@ -315,6 +317,10 @@
     }
     .Pokemon_type_desc img{
         width: 35px;
+    }
+    .Pokemon_moves{
+        height: fit-content;
+       overflow-y: auto;
     }
     .Pokemon_moves h3{
         font-size: 1.5rem;
